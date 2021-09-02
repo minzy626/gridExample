@@ -1,5 +1,5 @@
-import { Gridexample } from ".";
 import React from 'react';
+import GridComp from "./GridComp";
 
 function GridSample (){
 
@@ -69,7 +69,7 @@ function GridSample (){
           }}
         ];
         const gridStyle ={width:"70%", height:"50%"}
-    return <Gridexample 
+    return <GridComp 
                     gridData={gridTestData}
                     columnData={column}
                     gridStyle={gridStyle}

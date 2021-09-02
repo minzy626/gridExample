@@ -1,4 +1,4 @@
-import Gridexample from "./GridComp";
+import GridComp from "./GridComp";
 import GridSample from "./GridSample";
 
-export { Gridexample,GridSample}
+export { GridComp,GridSample}

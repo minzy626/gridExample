@@ -2,7 +2,7 @@ import 'tui-grid/dist/tui-grid.css';
 import Grid from '@toast-ui/react-grid';
 import React,{useEffect, useRef, useState} from 'react';
 
-function Gridexample (props) {
+function GridComp (props) {
     /**
     * props러 넘어오는 데이터를 그리드 데이터로 사용
     * gridData : 그리드에 보여질 데이터 항목, json타입
@@ -99,4 +99,4 @@ function Gridexample (props) {
 
 }
 
-export default Gridexample;
+export default GridComp;
