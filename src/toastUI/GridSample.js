@@ -61,12 +61,7 @@ function GridSample (){
             , editor: 'text'
             , sortingType: 'desc'
             , sortable: true
-          },
-          {columnOptions: {
-            frozenCount: 1,
-            minWidth: 300,
-            resizable: true
-          }}
+          }
         ];
         const gridStyle ={width:"70%", height:"50%"}
     return <GridComp 

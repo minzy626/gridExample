@@ -60,12 +60,16 @@ function GridComp (props) {
        * rowHeaders > 그리드에 체크박스, rownum등을 추가하는 옵션
        *     ㄴtype: checkbox, radio, rowNum
        */
+  
       const Gridcomp =() =>{
         return <Grid
                     ref ={gridRef}
                     data={data}
                     columns={columns} 
                     rowHeight={25}
+                    frozenCount={1}
+                    minWidth={300}
+                    resizable={true}
                     rowHeaders={[{ type: "checkbox" }, { type: "rowNum" }]}
                     pageOptions= {
                       {useClient:true,perPage: selectedRowCnt}
